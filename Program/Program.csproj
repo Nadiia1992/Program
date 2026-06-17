@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SoapFormatter" Version="1.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" />
+    <ProjectReference Include="..\ClassLog\ClassLog.csproj" />
+    <ProjectReference Include="..\ILogLibrary\InterfaceLibrary.csproj" />
+    <ProjectReference Include="..\PriceList\PriceList.csproj" />
+    <ProjectReference Include="..\SerializationLibrary\SerializationLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

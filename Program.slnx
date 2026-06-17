@@ -1,5 +1,8 @@
 <Solution>
   <Project Path="ClassLibrary/ClassLibrary.csproj" />
+  <Project Path="ClassLog/ClassLog.csproj" Id="1f531d17-dfa2-4d25-82a3-c221beef2148" />
+  <Project Path="ILogLibrary/InterfaceLibrary.csproj" Id="4decacb7-39c4-4098-91a7-ffbd7219f203" />
   <Project Path="PriceList/PriceList.csproj" />
   <Project Path="Program/Program.csproj" />
+  <Project Path="SerializationLibrary/SerializationLibrary.csproj" Id="b7131219-3d85-4541-8144-8fc800ae1740" />
 </Solution>
